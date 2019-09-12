@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Compra de empanadas</title>
+</head>
+
+<body>
+    <div id="container">
+        <section>
+            <div action="">
+                <div id="basic_info">
+                    <h2>
+                        Nombre:
+                        <input type="text" name="first" id="first" placeholder="Ingrese su Nombre" />
+                    </h2>
+                    <h2>
+                        Apellido:
+                        <input type="text" name="last" id="last" placeholder="Ingrese su Apellido" />
+                    </h2>
+                </div>
+
+                <div id="sector_content">
+                    <h2>
+                        Sector
+                        <select name="ubicacion" id="sector">
+                            <option value="Poblado">Poblado</option>
+                            <option value="Bello">Bello</option>
+                            <option value="Itagüí">Itagüí</option>
+                            <option value="Manrique">Manrique</option>
+                        </select>
+                    </h2>
+                </div>
+
+                <div id="flavor">
+                    <label>
+                        Sabores
+                        <label><input type="checkbox" name="Jamon" value="Jamon" />Jamon</label>
+                        <label><input type="checkbox" name="Jamon" value="Queso" />Queso</label>
+                        <label><input type="checkbox" name="Jamon" value="Carne" />Carne</label>
+                        <label><input type="checkbox" name="Jamon" value="Pollo" />Pollo</label>
+                        <label><input type="checkbox" name="Jamon" value="Verdura" />Verdura</label>
+                        <label><input type="checkbox" name="Jamon" value="Ranchera" />Ranchera</label>
+                    </label>
+                </div>
+
+                <div id="tip">
+                    <label>
+                        ¿Propina?
+
+                        <label><input type="radio" name="propina" id="propina_si" value="si" />Si </label>
+                        <label><input type="radio" name="propina" id="propina_no" value="no" />No </label>
+                    </label>
+                </div>
+
+                <div id="date">
+                    <label>Fecha: <input type="text" name="" id="fecha_compra" readonly /></label>
+                </div>
+
+                <div id="send">
+                    <button id="enviar" type="submit">Enviar</button>
+                </div>
+            </div>
+        </section>
+        
+        
+    </div>
+    
+    <script src="index.js"></script>
+
+</body>
+
+
+</html>

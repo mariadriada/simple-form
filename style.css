@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(221, 216, 208);
+}
+
+#container {
+    font-family: "Cabin", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+#basic_info {
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    align-items: center;
+}
+
+#sector_content {
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    align-items: center;
+}
+
+#flavor {
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 60px;
+    text-justify: auto;
+}
+
+#tip {
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 40px;
+    align-items: center;
+}
+
+#date {
+    border: solid 1px black;
+    display: flex;
+    justify-content: flex-start;
+    width: 80%;
+    height: 40px;
+    align-items: center;
+}
+
+
+#factura {
+    font-family: "Roboto Mono", monospace;
+    display: block;
+    text-align: justify;
+    justify-items: auto;
+    width: 80%;
+}
